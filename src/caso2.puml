@@ -1,0 +1,19 @@
+@startuml
+
+'https://plantuml.com/use-case-diagram
+
+
+
+:Socio:
+:Bibliotecario:
+rectangle Biblioteca{
+
+:Socio: -- (Prestar libro)
+:Socio: -- (Reservar libro)
+:Socio: -- (Devolver libro)
+:Bibliotecario: -- (Prestar libro)
+:Bibliotecario: -- (Actualizar catalogo)
+}
+
+
+@enduml

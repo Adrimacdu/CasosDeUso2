@@ -1,0 +1,9 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+
+:Agente: --> (Enviar solicitud credito)
+(Enviar solicitud credito personal) -|> (Enviar solicitud credito)
+(Enviar solicitud de credito empresarial) -|> (Enviar solicitud credito)
+
+@enduml

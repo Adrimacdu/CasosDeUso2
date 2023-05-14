@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+:Empleado:
+:Administrador:
+
+rectangle EmpresaPedidos {
+
+:Empleado: -- (Introducir pedido)
+:Empleado: -- (Cancelar pedido)
+:Empleado: -- (Obtener estado pedido)
+:Empleado: -- (Borrar pedido)
+:Empleado: -- (Buscar pedidos)
+:Empleado: -- (Alta cliente)
+:Empleado: -- (Buscar cliente)
+:Administrador: -- (Nuevo producto)
+:Administrador: -- (Borrar producto)
+
+}
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+
+
+:Actor1:
+:Actor2:
+rectangle Sistema{
+
+:Actor1: -- (caso de uso)
+:Actor1: -- (caso de uso2)
+:Actor1: -- (caso de uso3)
+:Actor2: -- (caso de uso)
+:Actor2: -- (caso de uso3)
+}
+
+@enduml
